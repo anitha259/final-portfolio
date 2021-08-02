@@ -1,0 +1,146 @@
+/* * {
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+} */
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    /* filter: blur(2px);
+    -webkit-filter: blur(5px); */
+}
+
+.logo {
+    color: rgb(255, 249, 249);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+span {
+    color: rgb(211, 26, 19);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(233, 13, 13);
+}
+
+.btn {
+    background-color: rgb(218, 49, 44);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+
+h1 {
+    color: white;
+    margin: 20px 0 20px 0;
+    font-size: 50px;
+}
+
+h3 {
+    color: rgb(211, 21, 8);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: rgb(192, 17, 17);
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.newsletter form {
+    width: 175px;
+    display: inline-block;
+    position: relative;
+}
+
+.newsletter form input:first-child {
+    width: 100%;
+    display: inline-block;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid rgb(190, 15, 15);
+    border-radius: 30px;
+}
+
+.newsletter form input:last-child {
+    position: absolute;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: rgb(190, 15, 15);
+    color: white;
+    top: 6px;
+    left: 100%;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+.icon1 {
+    margin-top: 500px;
+    position: absolute;
+    top: 0;
+    margin-left: 6%
+}
+
+.icon2 {
+    margin-top: 500px;
+    position: absolute;
+    top: 0;
+    margin-left: 10%;
+}
+
+.icon3 {
+    margin-top: 500px;
+    position: absolute;
+    top: 0;
+    margin-left: 14%;
+}
+
+.icon4 {
+    margin-top: 500px;
+    position: absolute;
+    top: 0;
+    margin-left: 18%;
+}
